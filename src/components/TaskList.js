@@ -22,7 +22,7 @@ function TaskList({tasks, showIncomplete, setTaskStatus, removeTask, setShowInco
             type ="checkbox" 
             id="filter" 
             checked={showIncomplete}
-            onChange={(e) => setShowIncomplete(e.target.checked)}></input>
+            onChange={(e) => setShowIncomplete(e.target.checked)} />
         </div>
     </div>
   );

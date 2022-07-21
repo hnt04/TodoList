@@ -10,12 +10,12 @@ function TaskItem({task,setTaskStatus, removeTask}) {
             type="checkbox" 
             className="btn-action btn-action-done"
             checked={Boolean(task.status)}
-            onChange={(e) => setTaskStatus(task.id,e.target.checked)}> </input>
+            onChange={(e) => setTaskStatus(task.id,e.target.checked)} />
             <button 
                         onClick = {()=> removeTask(task.id)}
                         className="btn-action btn-action-delete">x</button>
-                    </div>
-                </li>
+        </div>
+        </li>
     </div>
   );
 }

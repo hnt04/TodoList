@@ -8,7 +8,7 @@ function AddTaskForm({newTask, handleSubmit, handleInputChange}) {
             type ="type"
             id="new-item"
             value={newTask}
-            onChange={handleInputChange}></input>
+            onChange={handleInputChange} />
             <button type="submit">Add Item</button>
         </form>
   );
